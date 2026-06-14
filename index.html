@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Custom 3D printing service for small projects. PLA, PETG, TPU, and more. Send your file, get a quote, and receive your print.">
+  <title>3D Print Customs — Custom 3D Printing</title>
+  <link rel="icon" href="logo-dark.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <img src="logo-white.png" alt="3D Print Customs" class="logo-img" width="160" height="40">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#capabilities">Capabilities</a></li>
+        <li><a href="#how-it-works">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <img src="logo-white.png" alt="" class="hero-logo" width="280" height="70" aria-hidden="true">
+        <p class="hero-label">Custom 3D Printing Service</p>
+        <h1>Precision prints for<br><span class="gradient-text">small projects</span></h1>
+        <p class="hero-desc">
+          Send your STL or 3MF file and we'll handle the rest — from material selection to a finished part ready for pickup or delivery.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get a Quote</a>
+          <a href="#how-it-works" class="btn btn-secondary">How It Works</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="capabilities" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Capabilities</h2>
+          <p>Everything you need for functional prototypes, replacement parts, and hobby projects.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3>Materials</h3>
+            <ul class="materials-list">
+              <li><span class="tag">PLA</span></li>
+              <li><span class="tag">PETG</span></li>
+              <li><span class="tag">TPU</span></li>
+              <li><span class="tag">PVA</span></li>
+              <li><span class="tag">PET</span></li>
+              <li><span class="tag">ABS</span></li>
+              <li><span class="tag">ASA</span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="1"/>
+                <path d="M3 9h18M9 3v18"/>
+              </svg>
+            </div>
+            <h3>Build Volume</h3>
+            <p class="spec-value">256 × 256 × 256 mm</p>
+            <p class="spec-note">Maximum printable area per part</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
+              </svg>
+            </div>
+            <h3>Nozzle Sizes</h3>
+            <div class="nozzle-options">
+              <div class="nozzle">
+                <span class="nozzle-size">0.4 mm</span>
+                <span class="nozzle-desc">Standard detail</span>
+              </div>
+              <div class="nozzle">
+                <span class="nozzle-size">0.2 mm</span>
+                <span class="nozzle-desc">Fine detail</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="notice">
+          <div class="notice-icon" aria-hidden="true">ℹ</div>
+          <div>
+            <strong>Small projects only</strong>
+            <p>This service is designed for individual parts, prototypes, and hobby prints — not large-scale production runs. If your project fits on a single build plate, we're a good match.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>How It Works</h2>
+          <p>Four simple steps from file to finished part.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Send File</h3>
+              <p>Email your STL or 3MF file along with material preferences and any special requirements.</p>
+            </div>
+          </li>
+          <li class="step-connector" aria-hidden="true"></li>
+          <li class="step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Get Quote</h3>
+              <p>We review your model, confirm feasibility, and send you a price and estimated turnaround time.</p>
+            </div>
+          </li>
+          <li class="step-connector" aria-hidden="true"></li>
+          <li class="step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Print</h3>
+              <p>Once approved, we print your part with the selected material and nozzle size.</p>
+            </div>
+          </li>
+          <li class="step-connector" aria-hidden="true"></li>
+          <li class="step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Pickup / Delivery</h3>
+              <p>Collect your finished print locally or arrange delivery — whichever works best for you.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Ready to print? Send us your file and we'll get back to you with a quote.</p>
+            <ul class="contact-details">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:hello@3dprintcustoms.ca">hello@3dprintcustoms.ca</a>
+              </li>
+              <li>
+                <span class="contact-label">Accepted formats</span>
+                <span>STL, 3MF, OBJ</span>
+              </li>
+              <li>
+                <span class="contact-label">Typical turnaround</span>
+                <span>2–5 business days</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Project details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Material, quantity, dimensions, special requirements…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-note">Attach your 3D file directly via email after submitting.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 3D Print Customs. Custom 3D printing for small projects.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
