@@ -21,5 +21,5 @@ document.querySelector('.contact-form').addEventListener('submit', (e) => {
   const message = document.getElementById('message').value;
   const subject = encodeURIComponent('3D Print Quote Request');
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-  window.location.href = `mailto:hello@3dprintcustoms.ca?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:contact@toronto3dprints.shop?subject=${subject}&body=${body}`;
 });
